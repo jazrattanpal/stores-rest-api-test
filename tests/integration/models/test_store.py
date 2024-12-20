@@ -42,6 +42,7 @@ class StoreTest(BaseTest):
             store = StoreModel('test')
             item = ItemModel('test',19.99,1)
             expected = {
+                'id':1,
                 'name': 'test',
                 'items': [{'name':'test','price':19.99}]
             }
